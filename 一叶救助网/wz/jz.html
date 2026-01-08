@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一叶救助 - 救助通道</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Microsoft YaHei", sans-serif; }
+        body { background-color: #f5f5f5; color: #333; }
+        
+        /* 导航栏 */
+        .nav {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 0 50px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo { color: #e67e22; font-size: 22px; font-weight: bold; text-decoration: none; }
+        .nav-links a {
+            margin-left: 30px;
+            color: #666;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav-links a:hover, .nav-links a.active { color: #e67e22; }
+
+        /* 内容区 */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .title { color: #e67e22; font-size: 28px; margin-bottom: 20px; text-align: center; }
+        .content { line-height: 1.8; font-size: 16px; }
+        .content h3 { color: #333; margin: 20px 0 10px; }
+        .content p { margin-bottom: 15px; text-indent: 2em; }
+        .content ul { padding-left: 40px; margin-bottom: 15px; }
+        .content li { margin-bottom: 8px; }
+        .help-step {
+            border-left: 3px solid #e67e22;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .btn:hover { background-color: #d35400; }
+
+        /* 底部 */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #999;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <a href="index.html" class="logo">一叶救助</a >
+        <div class="nav-links">
+            <a href="index.html">首页</a >
+            <a href="g.html">关于我们</a >
+            <a href="j.html">加入我们</a >
+            <a href="r.html">认养站</a >
+            <a href="jz.html" class="active">救助通道</a >
+            <a href="login.html">登录/注册</a >
+        </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div class="container">
+        <h2 class="title">一叶救助通道——遇见流浪动物，这样帮它</h2>
+        <div class="content">
+            <h3>紧急救助流程</h3>
+            <div class="help-step">
+                <h4>第一步：发现与评估</h4>
+                <p>发现流浪动物后，先观察其状态：是否受伤、是否饥饿、是否有攻击性。若动物受伤严重或生命垂危，请立即联系我们；若状态稳定，可先提供少量食物和清水。</p >
+            </div>
+            <div class="help-step">
+                <h4>第二步：联系我们</h4>
+                <p>拨打紧急救助热线：138XXXX1234（24小时响应），或添加微信：yeyejz123，告知动物所在位置、状态及特征，我们将安排志愿者或工作人员前往处理。</p >
+            </div>
+            <div class="help-step">
+                <h4>第三步：临时照料/收容</h4>
+                <p>若条件允许，可先行临时照料；若无法照料，我们将接回救助站进行隔离观察、医疗救治和清洁护理，待动物恢复健康后，纳入领养/任养体系。</p >
+            </div>
+            <div class="help-step">
+                <h4>第四步：后续跟进</h4>
+                <p>救助完成后，我们会向反馈人同步动物的后续情况，邀请你参与动物的康复陪伴或领养见证，让每一次救助都有始有终。</p >
+            </div>
+
+            <h3>非紧急救助方式</h3>
+            <ul>
+                <li><strong>线上反馈</strong>：在官网“救助通道”页面填写《流浪动物救助反馈表》，我们会在24小时内联系你；</li>
+                <li><strong>社区合作</strong>：联系所在社区物业，建立流浪动物临时投喂点，定期反馈动物情况；</li>
+                <li><strong>公益宣传</strong>：拍摄流浪动物照片/视频，发布到社交平台，标注#一叶救助#话题，扩大救助影响力。</li>
+            </ul>
+
+            <h3>注意事项</h3>
+            <ul>
+                <li>请勿随意投喂变质食物，避免给动物带来二次伤害；</li>
+                <li>若动物有攻击性，请勿强行靠近，保持安全距离并联系专业人员；</li>
+                <li>救助站容量有限，优先救助受伤、幼龄、病重的流浪动物，感谢理解。</li>
+            </ul>
+
+            <a href="#" class="btn">填写救助反馈表</a >
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        一叶救助 © 202X 版权所有 | 公益救助 温暖同行
+    </div>
+</body>
+</html>

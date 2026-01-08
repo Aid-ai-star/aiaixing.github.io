@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>领养申请 - 一叶救助</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", "Source Han Sans CN", sans-serif;
+            background-color: #fff;
+            color: #333;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 50px;
+        }
+
+        .module {
+            margin: 30px 0;
+            padding: 10px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: #fff;
+            height: auto;
+            padding: 20px 50px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .header-left {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        .header h1 {
+            text-align: center;
+            font-size: 28px;
+            font-family: "Microsoft YaHei", "Source Han Sans CN", sans-serif;
+            color: #333;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .header span {
+            text-align: center;
+            display: block;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: normal;
+            color: #999;
+            margin-top: 8px;
+        }
+
+        .header-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-left: auto;
+        }
+
+        .header-right .login-link {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .header-right .login-link:hover {
+            color: #91c499;
+        }
+
+        .header-right .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .header-right a {
+            font-size: 14px;
+            color: #999;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .header-right a:hover {
+            color: #91c499;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .pdf-downloads {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .pdf-downloads h2 {
+            color: #91c499;
+            margin-bottom: 20px;
+        }
+
+        .pdf-downloads p {
+            font-size: 16px;
+            line-height: 2;
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .pdf-downloads ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .pdf-downloads li {
+            margin-bottom: 15px;
+        }
+
+        .pdf-downloads a {
+            display: inline-block;
+            background-color: #91c499;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+
+        .pdf-downloads a:hover {
+            background-color: #7ca883;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            background-color: #f0f8f0;
+            font-size: 12px;
+            color: #333;
+            border-radius: 8px;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .footer .contact {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="module header">
+            <div class="header-left">
+                <h1>一叶救助</h1>
+                <span>Leaf Aid</span>
+            </div>
+            <div class="header-right">
+                <a href="login.html" target="_blank" class="login-link">注册/登录</a>
+                <div class="nav-links">
+                    <a href="g.html" target="_blank">关于我们</a>
+                    <span> </span>
+                    <a href="j.html" target="_blank">加入我们</a>
+                    <span> </span>
+                    <a href="r.html" target="_blank">认养站</a>
+                    <span> </span>
+                    <a href="jz.html" target="_blank">救助通道</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="module content">
+            <div class="pdf-downloads">
+                <h2>申请表下载</h2>
+                <div style="font-size: 16px; line-height: 2; padding: 20px;"> 
+                    <p>请下载并填写以下申请表，填写完成后发送至邮箱：yeyejz@163.com</p> 
+                    <ul style="list-style: none; padding: 0;"> 
+                        <li>🔹 <a href="pdf/领养申请.pdf" download="一叶救助-领养申请.pdf">领养申请表下载</a></li>
+                        <li>🔹 <a href="pdf/救助申请.pdf" download="一叶救助-救助申请.pdf">救助申请表下载</a></li>
+                        <li>🔹 <a href="pdf/加入我们申请.pdf" download="一叶救助-加入我们申请.pdf">加入我们申请表下载</a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+
+        <div class="module footer">
+            <div class="footer-content">
+                <span>©一叶流浪救助网版权所有</span>
+                <span class="contact">联系方式：contact@leafaid.org</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
